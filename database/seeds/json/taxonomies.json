@@ -1,0 +1,16 @@
+[
+
+    {
+        "type_slug": "registrations",
+        "name": "Email Verification Pending"
+    },
+    {
+        "type_slug": "registrations",
+        "name": "Email Verified"
+    },
+    {
+        "type_slug": "registrations",
+        "name": "User Created"
+    }
+
+]

@@ -1,0 +1,180 @@
+@import "./functions";
+
+// Semantic Colors
+$primary: 	hsl(224, 98%, 55%) !default;
+$info: hsl(213, 100%, 65%) !default;
+$success: hsl(100, 64%, 47%) !default;
+$warning: hsl(40, 100%, 50%) !default;
+$danger: hsl(10, 100%, 62%) !default;
+$help: hsl(271, 91%, 65%) !default;
+$secondary: hsl(215, 16%, 47%) !default;
+
+$shade000:#ffffff !default;    //surface
+$shade100:#fafafa !default;    //header background      //updated: gray-50
+$shade200:#f4f4f5 !default;    //hover background       //updated: gray-100
+$shade300:#e5e7eb !default;    //border, divider        //updated  coolgray-200
+$shade400:#d4d4d8 !default;    //input border           //updated: gray-300
+$shade500:#6b7280 !default;    //input icon             //updated: coolgray500
+$shade600:#71717A !default;    //text secondary color   //updated: gray-500
+$shade700:#3f3f46 !default;    //text color             //updated: gray-700
+$shade800:#27272A !default;    //unused                 gray-800
+$shade900:#18181B !default;    //unused                 gray-900
+
+$colors: (
+    "blue": #3B82F6,
+    "green": #22C55E,
+    "yellow": #EAB308,
+    "cyan": #06B6D4,
+    "pink": #EC4899,
+    "indigo": #6366F1,
+    "teal": #14B8A6,
+    "orange": #F97316,
+    "bluegray": #64748B,
+    "purple": #A855F7,
+    "red": #EF4444,
+    "primary": $primary
+);
+
+
+//global
+$fontFamily:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !default;
+$fontSize:.8rem;
+$linHeight:20px !default;
+$primeIconFontSize:.85rem;
+
+//menu (e.g. menu, menubar, tieredmenu)
+$menuitemPadding:.6rem 1rem;
+
+//focus
+$focusOutlineColor:$primary;
+$focusShadow:none;
+
+//button
+$buttonIconOnlyWidth:2rem;
+
+//paginator
+$paginatorElementWidth:$buttonIconOnlyWidth;
+$paginatorElementHeight:$buttonIconOnlyWidth;
+
+
+
+//input field (e.g. inputtext, spinner, inputmask)
+$inputPadding:.5rem .75rem;
+$inputFocusBorderColor:$primary;
+$inputErrorBorderColor:$danger;
+$inputTextFontSize:.75rem;
+
+//input groups
+$inputGroupAddOnMinWidth:2rem;
+
+//Checkbox
+$checkbox-small-width:14px !default;
+$checkbox-small-height:14px !default;
+
+//Radio
+$radiobuttonWidth:14px !default;
+$radiobuttonHeight:14px !default;
+
+//radio button small
+$radiobutton-small-width:12px !default;
+$radiobutton-small-height:12px !default;
+
+//Sidebar
+$sideBarWidth: 225px;
+$sideBarAnimation: .2s ease;
+
+//input switch small
+$input-switch-small-width: 2rem;
+$input-switch-small-height: 1.1rem;
+$input-switch-small-handle-width: 0.7rem;
+$input-switch-small-handle-height: 0.7rem;
+$input-switch-small-slider-padding:0.25rem;
+
+//scroll-panel
+$scroll-panel-track-border:0 none !default;
+$scroll-panel-track-bg:$shade100 !default;
+
+//card
+$card-header-padding:1.25rem 1.25rem 0 1.25rem  !default;
+
+//table
+$tableBodyCellPadding:15rem 1.5rem !default;
+//message
+$messageMargin:.75rem 0;
+$messagePadding:.5rem .75rem;
+$messageIconFontSize:1rem;
+$messageTextFontSize:.75rem;
+
+
+
+//----------------- Optional Variables
+$raised-button-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06) !default;
+$rounded-button-border-radius:2rem !default;
+
+$primaryColor: $primary !default;
+$primaryLightColor:lighten($primary, 20%) !default;
+$primaryLighterColor:lighten($primary, 40%) !default;
+$primaryDarkColor: darken($primary, 10%) !default;
+$primaryDarkerColor:darken($primary, 30%) !default;
+$primaryTextColor: #ffffff !default;
+
+$infoColor:$info !default;
+$infoLightColor: lighten($infoColor, 20%) !default;
+$infoLighterColor: lighten($infoColor, 30%) !default;
+$infoDarkColor:darken($infoColor, 15%) !default;
+$infoDarkerColor:darken($infoColor, 25%) !default;
+
+
+$successColor:$success;
+$successLightColor: lighten($successColor, 30%) !default;
+$successLighterColor: lighten($successColor, 40%) !default;
+$successDarkColor:darken($successColor, 15%) !default;
+$successDarkerColor:darken($successColor, 25%) !default;
+
+$dangerColor:$danger !default;
+$dangerLightColor: lighten($dangerColor, 20%) !default;
+$dangerLighterColor: lighten($dangerColor, 30%) !default;
+$dangerDarkColor:darken($dangerColor, 20%) !default;
+$dangerDarkerColor:darken($dangerColor, 30%) !default;
+
+$warningColor:$warning !default;
+$warningLightColor: lighten($warningColor, 20%) !default;
+$warningLighterColor: lighten($warningColor, 30%) !default;
+$warningDarkColor:darken($warningColor, 20%) !default;
+$warningDarkerColor:darken($warningColor, 30%) !default;
+
+$helpColor:$help;
+$helpLightColor:lighten($helpColor, 20%);
+$helpLighterColor:lighten($helpColor, 30%);
+$helpDarkColor: darken($helpColor, 15%);
+$helpDarkerColor: darken($helpColor, 25%);
+
+$secondaryColor:$secondary;
+$secondaryDarkColor: darken($secondary, 20%) !default;
+$secondaryDarkerColor: darken($secondary, 30%) !default;
+$secondaryLightColor:lighten($secondary, 15%) !default;
+$secondaryLighterColor:lighten($secondary, 25%) !default;
+
+
+$highlightBg: #EEF2FF !default;
+$highlightTextColor: #312E81 !default;
+$highlightFocusBg: #E0E7FF !default;
+
+
+//card
+$cardHeaderPadding:$card-header-padding !default;
+
+$borderRadius:2px;
+$regentGray:hsl(211, 16%, 58%);
+$catskillWhite:hsl(222, 33%, 92%);
+$otticelli:hsl(222, 31%, 85%);
+
+$primaryCustomColor:$regentGray;
+$bgPrimaryCustomColor:$catskillWhite;
+$bdrPrimaryCustomColor:$otticelli;
+
+$primaryCustomLightColor:lighten($regentGray, 15%) ;
+$bgPrimaryCustomLightColor:lighten($catskillWhite, 15%);
+$bdrPrimaryLightColor:lighten($otticelli, 15%);
+
+

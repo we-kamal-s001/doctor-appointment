@@ -1,0 +1,65 @@
+<?php 
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Language Lines for English > Crud Action
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    'create_button' => 'Create',
+    'form_text_create' => 'Create',
+    'placeholder_search' => 'Search',
+    'reset_button' => 'Reset',
+    'filters_button' => 'Filters',
+    'bulk_activate' => 'Activate',
+    'mark_all_as_active' => 'Mark all as active',
+    'bulk_deactivate' => 'Deactivate',
+    'mark_all_as_inactive' => 'Mark all as inactive',
+    'bulk_trash' => 'Trash',
+    'trash_all' => 'Trash All',
+    'bulk_restore' => 'Restore',
+    'restore_all' => 'Restore All',
+    'bulk_delete' => 'Delete',
+    'delete_all' => 'Delete All',
+    'filter_sort_by' => 'Sort By',
+    'sort_by_none' => 'None',
+    'sort_by_updated_ascending' => 'Updated (Ascending)',
+    'sort_by_updated_descending' => 'Updated (Descending)',
+    'filter_trashed' => 'Trashed',
+    'filter_exclude_trashed' => 'Exclude Trashed',
+    'filter_include_trashed' => 'Include Trashed',
+    'filter_only_trashed' => 'Only Trashed',
+    'filter_status' => 'Status',
+    'filter_is_active' => 'Is Active',
+    'filter_is_active_all' => 'All',
+    'filter_only_active' => 'Only Active',
+    'filter_only_inactive' => 'Only Inactive',
+    'toolkit_text_view' => 'View',
+    'toolkit_text_update' => 'Update',
+    'toolkit_text_edit' => 'Edit',
+    'toolkit_text_trash' => 'Trash',
+    'toolkit_text_restore' => 'Restore',
+    'toolkit_text_copy_slug' => 'Copy Slug',
+    'edit_button' => 'Edit',
+    'save_button' => 'Save',
+    'form_save_and_close' => 'Save & Close',
+    'form_save_and_clone' => 'Save & Clone',
+    'form_save_and_new' => 'Save & New',
+    'form_create_and_new' => 'Create & New',
+    'form_create_and_close' => 'Create & Close',
+    'form_create_and_clone' => 'Create & Clone',
+    'form_fill' => 'Fill',
+    'form_add_custom_field' => 'Add Custom Field',
+    'form_text_deleted' => 'Deleted',
+    'form_trash' => 'Trash',
+    'form_delete' => 'Delete',
+    'form_reset' => 'Reset',
+    'view_edit' => 'Edit',
+    'view_trash' => 'Trash',
+    'view_delete' => 'Delete',
+    'view_deleted' => 'Deleted',
+    'view_restore' => 'Restore',
+
+];

@@ -1,0 +1,232 @@
+[
+    {
+        "slug": "send-welcome-email",
+        "via": "mail",
+        "sort": 0,
+        "key": "subject",
+        "value": "Welcome Email"
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "mail",
+        "sort": 1,
+        "key": "from",
+        "meta": {
+            "name": "#!ENV:MAIL_FROM_NAME!#"
+        },
+        "value": "#!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "mail",
+        "sort": 2,
+        "key": "line",
+        "value": "Hello #!USER:NAME!#"
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "mail",
+        "sort": 3,
+        "key": "greetings",
+        "value": "Welcome to #!ENV:APP_NAME!#"
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "mail",
+        "sort": 4,
+        "key": "line",
+        "value": "Thank you for signing up for #!ENV:APP_NAME!# services"
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "mail",
+        "sort": 5,
+        "key": "action",
+        "value": "Click to Login",
+        "meta": {
+            "action":"#!ROUTE:VH.LOGIN!#"
+        }
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "mail",
+        "sort": 6,
+        "key": "line",
+        "value": "If your have any queries please contact this #!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "backend",
+        "sort": 0,
+        "key": "content",
+        "value": "Thank you for signing up for #!ENV:APP_NAME!# services"
+    },
+    {
+        "slug": "send-welcome-email",
+        "via": "backend",
+        "sort": 1,
+        "key": "action",
+        "value": "Welcome to VaahCMS",
+        "meta": {
+            "action":"#!ROUTE:VH.LOGIN!#"
+        }
+    },
+    {
+        "slug": "send-reset-password-email",
+        "via": "mail",
+        "sort": 0,
+        "key": "subject",
+        "value": "Reset Password Email"
+    },
+    {
+        "slug": "send-reset-password-email",
+        "via": "mail",
+        "sort": 1,
+        "key": "from",
+        "meta": {
+            "name": "#!ENV:MAIL_FROM_NAME!#"
+        },
+        "value": "#!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-reset-password-email",
+        "via": "mail",
+        "sort": 2,
+        "key": "line",
+        "value": "Hello #!USER:NAME!#"
+    },
+    {
+        "slug": "send-reset-password-email",
+        "via": "mail",
+        "sort": 3,
+        "key": "line",
+        "value": "Your reset code is following:"
+    },
+    {
+        "slug": "send-reset-password-email",
+        "via": "mail",
+        "sort": 4,
+        "key": "line",
+        "value": "#!PARAM:RESET_PASSWORD_CODE!#"
+    },
+    {
+        "slug": "send-reset-password-email",
+        "via": "mail",
+        "sort": 5,
+        "key": "action",
+        "value": "Click to Reset",
+        "meta": {
+            "action":"#!ROUTE:VH.RESET!#"
+        }
+    },
+    {
+        "slug": "send-reset-password-email",
+        "via": "mail",
+        "sort": 6,
+        "key": "line",
+        "value": "If your have any queries please contact this #!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "mail",
+        "sort": 0,
+        "key": "subject",
+        "value": "Email Verification"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "mail",
+        "sort": 1,
+        "key": "from",
+        "meta": {
+            "name": "#!ENV:MAIL_FROM_NAME!#"
+        },
+        "value": "#!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "mail",
+        "sort": 2,
+        "key": "line",
+        "value": "Hello #!USER:NAME!#"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "mail",
+        "sort": 3,
+        "key": "line",
+        "value": "We’re sending you this email so that you can verify your account and get started with using VaahCms right away!"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "mail",
+        "sort": 4,
+        "key": "line",
+        "value": "All you need to do is follow the link below!"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "mail",
+        "sort": 5,
+        "key": "action",
+        "value": "Click to verify your email",
+        "meta": {
+            "action":"#!ROUTE:VH.RESET!#"
+        }
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "mail",
+        "sort": 6,
+        "key": "line",
+        "value": "If your have any queries please contact this #!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "backend",
+        "sort": 0,
+        "key": "content",
+        "value": "We’re sending you this email so that you can verify your account and get started with using VaahCms right away!"
+    },
+    {
+        "slug": "send-verification-email",
+        "via": "backend",
+        "sort": 1,
+        "key": "action",
+        "value": "Click to verify your email",
+        "meta": {
+            "action":"#!ROUTE:VH.VERIFICATION!#"
+        }
+    },
+    {
+        "slug": "send-login-otp",
+        "via": "mail",
+        "sort": 0,
+        "key": "subject",
+        "value": "Login OTP"
+    },
+    {
+        "slug": "send-login-otp",
+        "via": "mail",
+        "sort": 1,
+        "key": "from",
+        "meta": {
+            "name": "#!ENV:MAIL_FROM_NAME!#"
+        },
+        "value": "#!ENV:MAIL_FROM_ADDRESS!#"
+    },
+    {
+        "slug": "send-login-otp",
+        "via": "mail",
+        "sort": 2,
+        "key": "line",
+        "value": "Your one time login (OTP) password is:"
+    },
+    {
+        "slug": "send-login-otp",
+        "via": "mail",
+        "sort": 3,
+        "key": "line",
+        "value": "#!PARAM:LOGIN_OTP!#"
+    }
+]

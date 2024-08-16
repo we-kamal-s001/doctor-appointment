@@ -1,0 +1,65 @@
+<?php 
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Language Lines for Spanish > Crud Action
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    'create_button' => 'Crear',
+    'form_text_create' => 'Crear',
+    'placeholder_search' => 'Buscar',
+    'reset_button' => 'Reiniciar',
+    'filters_button' => 'Filtros',
+    'bulk_activate' => 'Activar',
+    'mark_all_as_active' => 'Marcar todos como activos',
+    'bulk_deactivate' => 'Desactivar',
+    'mark_all_as_inactive' => 'Marcar todo como inactivo',
+    'bulk_trash' => 'Basura',
+    'trash_all' => 'Papelera Todo',
+    'bulk_restore' => 'Restaurar',
+    'restore_all' => 'Restaura Todo',
+    'bulk_delete' => 'Borrar',
+    'delete_all' => 'Eliminar Todos',
+    'filter_sort_by' => 'Ordenar Por',
+    'sort_by_none' => 'Ninguno',
+    'sort_by_updated_ascending' => 'Actualizado (Ascendente)',
+    'sort_by_updated_descending' => 'Actualizado (Descendente)',
+    'filter_trashed' => 'Destrozado',
+    'filter_exclude_trashed' => 'Excluir Papelera',
+    'filter_include_trashed' => 'Incluir Papelera',
+    'filter_only_trashed' => 'Solo tirado a la basura',
+    'filter_status' => 'Estado',
+    'filter_is_active' => 'Está Activo',
+    'filter_is_active_all' => 'Todo',
+    'filter_only_active' => 'Solo Activo',
+    'filter_only_inactive' => 'Solo Inactivo',
+    'toolkit_text_view' => 'Vista',
+    'toolkit_text_update' => 'Actualizar',
+    'toolkit_text_edit' => 'Editar',
+    'toolkit_text_restore' => 'Restaurar',
+    'toolkit_text_trash' => 'Basura',
+    'toolkit_text_copy_slug' => 'Copiar Babosa',
+    'edit_button' => 'Editar',
+    'save_button' => 'Ahorrar',
+    'form_save_and_close' => 'Guardar y Cerrar',
+    'form_save_and_clone' => 'Guardar y Clonar',
+    'form_save_and_new' => 'Guardar y Nuevo',
+    'form_create_and_new' => 'Crear y Nuevo',
+    'form_create_and_close' => 'Crear y Cerrar',
+    'form_create_and_clone' => 'Crear y Clonar',
+    'form_fill' => 'Llenar',
+    'form_add_custom_field' => 'Agregar campo personalizado',
+    'form_text_deleted' => 'Eliminado',
+    'form_trash' => 'Basura',
+    'form_delete' => 'Borrar',
+    'form_reset' => 'Reiniciar',
+    'view_edit' => 'Editar',
+    'view_trash' => 'Basura',
+    'view_delete' => 'Borrar',
+    'view_deleted' => 'Eliminado',
+    'view_restore' => 'Restaurar',
+
+];

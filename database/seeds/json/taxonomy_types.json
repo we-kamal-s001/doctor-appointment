@@ -1,0 +1,16 @@
+[
+
+    {
+        "name": "Countries"
+    },
+
+    {
+        "name": "Cities",
+        "parent_slug": "countries"
+    },
+    
+    {
+        "name": "Registrations"
+    }
+
+]

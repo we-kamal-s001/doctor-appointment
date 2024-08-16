@@ -1,0 +1,65 @@
+<?php 
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Language Lines for French > Crud Action
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    'create_button' => 'Créer',
+    'form_text_create' => 'Créer',
+    'placeholder_search' => 'Recherche',
+    'reset_button' => 'Réinitialiser',
+    'filters_button' => 'Filtres',
+    'bulk_activate' => 'Activer',
+    'mark_all_as_active' => 'Marquer tout comme actif',
+    'bulk_deactivate' => 'Désactiver',
+    'mark_all_as_inactive' => 'Marquer tout comme inactif',
+    'bulk_trash' => 'Poubelle',
+    'trash_all' => 'Tout Jeter',
+    'bulk_restore' => 'Restaurer',
+    'restore_all' => 'Tout Restaurer',
+    'bulk_delete' => 'Supprimer',
+    'delete_all' => 'Supprimer Tout',
+    'filter_sort_by' => 'Trier Par',
+    'sort_by_none' => 'Aucun',
+    'sort_by_updated_ascending' => 'Mis à jour (Croissant)',
+    'sort_by_updated_descending' => 'Mis à jour (Décroissant)',
+    'filter_trashed' => 'Mis à la poubelle',
+    'filter_exclude_trashed' => 'Exclure la corbeille',
+    'filter_include_trashed' => 'Inclure la corbeille',
+    'filter_only_trashed' => 'Seulement mis à la poubelle',
+    'filter_status' => 'Statut',
+    'filter_is_active' => 'C\'est Actif',
+    'filter_is_active_all' => 'Tout',
+    'filter_only_active' => 'Uniquement Actif',
+    'filter_only_inactive' => 'Uniquement Inactif',
+    'toolkit_text_view' => 'Voir',
+    'toolkit_text_update' => 'Mise à jour',
+    'toolkit_text_edit' => 'Modifier',
+    'toolkit_text_trash' => 'Poubelle',
+    'toolkit_text_restore' => 'Restaurer',
+    'toolkit_text_copy_slug' => 'Copier le limace',
+    'edit_button' => 'Modifier',
+    'save_button' => 'Sauvegarder',
+    'form_save_and_close' => 'Sauvegarder et Fermer',
+    'form_save_and_clone' => 'Enregistrer et Cloner',
+    'form_save_and_new' => 'Enregistrer et Nouveau',
+    'form_create_and_new' => 'Créer et Nouveau',
+    'form_create_and_close' => 'Créer et Fermer',
+    'form_create_and_clone' => 'Créer et Cloner',
+    'form_fill' => 'Remplir',
+    'form_add_custom_field' => 'Ajouter un champ personnalisé',
+    'form_text_deleted' => 'Supprimé',
+    'form_trash' => 'Poubelle',
+    'form_delete' => 'Supprimer',
+    'form_reset' => 'Réinitialiser',
+    'view_edit' => 'Modifier',
+    'view_trash' => 'Poubelle',
+    'view_delete' => 'Supprimer',
+    'view_deleted' => 'Supprimé',
+    'view_restore' => 'Restaurer',
+
+];
